@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 )
-
+// dns resolving + reports
 type DNSResult struct {
 	Server string   `json:"server"`
 	IPs    []string `json:"ips"`
