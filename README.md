@@ -24,8 +24,7 @@ To run this tool, you'll need to have the following installed:
 - Go 1.18+ (or newer) — for building and running the program.
 
 ## Installation
-
-1. Clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/Batcherss/dns-leaker.git
