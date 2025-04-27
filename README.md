@@ -28,17 +28,23 @@ To run this tool, you'll need to have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/dns-leak-checker.git
+git clone https://github.com/Batcherss/dns-leaker.git
 ```
 Navigate to the project folder:
 ```
-cd dns-leak-checker
+cd dns-leaker
 ```
 # Usage
 To use the DNS Leak Checker Tool, run the following command:
-
+- -s = site (domen) input
+- -d = debug (optional)
+- -f = file to output (optional , standart enabled)
 ```
 go run main.go -s <domain_or_ip>
+```
+or
+```
+dns-leaker -s exmp.com -d -f texter.txt
 ```
 Replace <domain_or_ip> with the domain name or IP address you'd like to check for DNS leaks.
 This command will check DNS responses for example.com and print any issues found with DNS resolution.
