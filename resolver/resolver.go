@@ -6,6 +6,7 @@ import (
 	"time"
 )
 // DANGER! DANGER! RADIATION!
+// realy danger
 func Resolve(domain, server string) ([]string, error) {
 	dialer := &net.Dialer{
 		Timeout: time.Second * 5,
