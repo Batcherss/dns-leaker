@@ -20,7 +20,7 @@ func InitLogger(filename string) {
 		var err error
 		file, err = os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 		if err != nil {
-			fmt.Println("Error creating log file:", err)
+			fmt.Println("err with creating file:", err)
 		}
 	}
 }
