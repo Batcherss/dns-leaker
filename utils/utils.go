@@ -1,5 +1,5 @@
 package utils
-
+// fucked our brain
 func Compare(reference []string, target []string) (bool, []string, []string) {
 	refMap := make(map[string]bool)
 	for _, ip := range reference {
