@@ -33,6 +33,10 @@ Navigate to the project folder:
 ```
 cd dns-leaker
 ```
+or
+```
+go install github.com/Batcherss/dns-leaker@latest
+```
 # Usage
 To use the DNS Leak Checker Tool, run the following command:
 - -s = site (domen) input
